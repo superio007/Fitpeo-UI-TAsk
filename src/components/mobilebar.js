@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import logo from '../Media/profile.webp'
 
 function MobileBar() {
   const [isCanvasOpen, setIsCanvasOpen] = useState(false);
@@ -31,7 +32,7 @@ function MobileBar() {
     };
   }, []);
 
-  const logo = 'your_logo_path_here'; // Define the logo path
+  // const logo = 'your_logo_path_here'; // Define the logo path
 
   return (
     <div id='mobile-bar'>
