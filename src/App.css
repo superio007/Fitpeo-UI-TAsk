@@ -600,6 +600,164 @@ hr{
     height: 233px;
   }
 }
+/* max width 500 */
+@media(max-width:500px){
+  #computer-bar{
+    display: none;
+  }
+  #mobile-bar{
+    display: block;
+  }
+  /* Dashboard 1 */
+  #dashboard-first {
+    justify-content: space-between;
+    margin: 0px 0px;
+    margin-bottom: 35px;
+  }
+  .head {
+    margin-right: 0px;
+    margin-left: 64px;
+  }
+  #search{
+    margin-right: 16px;
+    width: 127px;
+  }
+  #search::placeholder {
+    padding-left: 35px;
+  }  
+  .fa-solid.fa-magnifying-glass.fa-sm {
+    top: 20px;
+    left: 373px;
+  }
+  /* dashboard 2 */
+  #dashboard-second{
+    display: block;
+    margin-left: 50px;
+  }
+  .card{
+    width: 389px;
+    margin-bottom: 35px;
+  }
+  .card #left img{
+    width: 130px;
+    height: 130px;
+  }
+  .card #left{
+    padding-left: 40px;
+  }
+  .card #right{
+    top: 28px;
+    left: 215px;
+  }
+  #dashboard-third{
+    display: block;
+    margin-left: 0px;
+  }
+  #dash-first{
+    margin-top: 22px;
+    margin-left: 78px;
+  }
+  #bar-graph{
+    border-radius: 8px;
+    background-color: white;
+    width: 382px;
+    height: 603px;
+    padding: 15px;
+    display: block;
+    margin-right: 0px;
+    text-align: center;
+    margin-left: 53px;
+    margin-bottom: 35px;
+    padding-left: 32px;
+  }
+  
+  #bar-graph2,#bar-graph1{
+    gap: 15px;
+  }
+  #pie-chart{
+    background-color: white;
+    width: 378px;
+    height: 369px;
+    border-radius: 8px;
+    margin-left: 55px;
+  }
+  #dougnut{
+    z-index: 1;
+    width: 287px;
+    height: 291px;
+    top: 1537px;
+    left: 101px;
+  }
+  #text{
+    top: 112px;
+    left: 109px;
+  }
+  #overview-drop{
+    top: 855px;
+    left: 306px;
+  }
+  /* dashboard forth */
+  #dashboard-forth{
+    margin-left: 58px;
+    width: 373px;
+    height: 690px;
+  }
+  hr{
+    width: 229%;
+  }
+  
+  #dash-right{
+    display: block;
+  }
+  #dash-search .fa-solid.fa-magnifying-glass.fa-sm{
+    top: 1910px;
+    left: 285px;
+  }
+  
+  #dash-in-search{
+    margin-bottom: 15px;
+    width: 140px;
+  }
+  
+  #dash-drop .material-symbols-outlined {
+    top: 1947px;
+    left: 379px;
+}
+  #th-name {
+  padding-left: 0px;
+  }
+  #th-stock{
+    padding-left: 0px;
+  }
+  #th-price{
+    padding-left: 0px;
+  }
+  #th-sales{
+    padding-left: 0px;
+  }
+  .td-name{
+    display: block;
+    text-align: center;
+    margin-right: 41px;
+  }
+  table{
+    width: 150px;
+
+  }
+  .stock{
+    text-align: center;
+    padding-right: 37px;
+  }
+  .price{
+    padding-right: 40px;
+    text-align: center;
+  }
+  .td-sales{
+    padding-left: 0px;
+    padding-right: 25px;
+    text-align: center;
+  }
+}
 
 @media(max-width:400px){
   #computer-bar{
